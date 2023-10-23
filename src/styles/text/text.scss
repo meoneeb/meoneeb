@@ -1,0 +1,53 @@
+
+// GLOBAL
+
+* {
+    font-family: 'Gabarito', sans-serif;
+}
+
+// FOR PC & TABLET
+@media(min-width:760px){
+    h1 {
+        font-size: 72px;
+        font-weight: 700;
+    }
+    h3 {
+        /* display/h3 */
+        font-family: Gabarito;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    p {
+        /* text/lg/reg */
+        font-family: Gabarito;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+// FOR MOBILE
+@media(max-width:760px){
+    h1 {
+        font-size: 48px;
+        font-weight: 700;
+    }
+    h3 {
+        /* display/h3 */
+        font-family: Gabarito;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    p {
+        /* text/lg/reg */
+        font-family: Gabarito;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
