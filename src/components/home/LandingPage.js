@@ -15,7 +15,7 @@ export default function LandingPage() {
                     height: '100vh'
                 }}
             >
-                <h1 className="mt-20" style={{color: '#8FFF00'}}>Hello! I'm Oneeb Faisal,</h1>
+               <h1 className="mt-20" style={{color: '#8FFF00'}}>Hello! I am Oneeb Faisal,</h1>
                 <div
                     style={{
                         display: 'flex',
