@@ -1,57 +1,154 @@
-// PRIMARY BUTTONS
+// FOR PC & TABLET
+@media(min-width:760px){
 
-.btn-lg {
-    background-color: #8FFF00;
-    color: #1E1E1E;
-    font-family: Gabarito;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    border-radius: 22px;
-    padding: 0px 30px;
-    height: 68px ;
-    box-shadow: 0px 4px 10px 0px rgba(143, 255, 0, 0.25);
-    transition-duration: 300ms;
+    // PRIMARY BUTTONS
 
-}
-.btn-lg:hover {
-    box-shadow: 0px 4px 20px 0px rgba(143, 255, 0, 0.80);
+    .btn-lg {
+        background-color: #8FFF00;
+        color: #1E1E1E;
+        font-family: Gabarito;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        border-radius: 30px;
+        padding: 0px 30px;
+        height: 68px ;
+        box-shadow: 0px 4px 10px 0px rgba(143, 255, 0, 0.25);
+        transition-duration: 300ms;
+
+    }
+    .btn-lg:hover {
+        box-shadow: 0px 12px 20px -8px rgba(143, 255, 0, 0.80);
+    }
+
+    .btn-sm {
+        background-color: #8FFF00;
+        color: #1E1E1E;
+        font-family: Gabarito;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        border-radius: 15px;
+        padding: 0px 20px;
+        height: 36px ;
+        box-shadow: 0px 4px 10px 0px rgba(143, 255, 0, 0.25);
+        transition-duration: 300ms;
+    }
+    .btn-sm:hover {
+        box-shadow: 0px 8px 20px -4px rgba(143, 255, 0, 0.80);
+    }
+
+    // SECONDARY BUTTONS
+
+    .btn-lg-sec {
+        background-color: none;
+        color: #fff;
+        font-family: Gabarito;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border-radius: 30px;
+        padding: 0px 30px;
+        height: 68px ;
+        transition-duration: 300ms;
+    }
+    .btn-lg-sec:hover {
+        background-color: rgba(255, 255, 255, 0.06);
+    }
+    .footer-btn {
+        background-color: none;
+        color: #fff;
+        border: 2px solid #8FFF00;
+        padding: 20px;
+        height: 68px;
+        width: 25%;
+        text-align: center;
+    }
+    .footer-btn:hover {
+        background-color: #8FFF00;
+        color: #1E1E1E;
+    }
 }
 
-.btn-sm {
-    background-color: #8FFF00;
-    color: #1E1E1E;
-    font-family: Gabarito;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    border-radius: 15px;
-    padding: 0px 20px;
-    height: 36px ;
-    box-shadow: 0px 4px 10px 0px rgba(143, 255, 0, 0.25);
-    transition-duration: 300ms;
-}
-.btn-sm:hover {
-    box-shadow: 0px 4px 20px 0px rgba(143, 255, 0, 0.80);
-}
+// FOR MOBILE
+@media(max-width:760px){
 
-// SECONDARY BUTTONS
+    // PRIMARY BUTTONS
 
-.btn-lg-sec {
-    background-color: none;
-    color: #fff;
-    font-family: Gabarito;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    border-radius: 22px;
-    padding: 0px 30px;
-    height: 68px ;
-    transition-duration: 300ms;
-}
-.btn-lg-sec:hover {
-    background-color: rgba(255, 255, 255, 0.06);
+    .btn-lg {
+        background-color: #8FFF00;
+        color: #1E1E1E;
+        font-family: Gabarito;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        border-radius: 30px;
+        padding: 0px 30px;
+        height: 58px;
+        width: 100%;
+        box-shadow: 0px 4px 10px 0px rgba(143, 255, 0, 0.25);
+        transition-duration: 300ms;
+        margin: 2px 10px;
+
+    }
+    .btn-lg:hover {
+        box-shadow: 0px 12px 20px -8px rgba(143, 255, 0, 0.80);
+    }
+
+    .btn-sm {
+        background-color: #8FFF00;
+        color: #1E1E1E;
+        font-family: Gabarito;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        border-radius: 15px;
+        padding: 0px 20px;
+        // height: 26px;
+        box-shadow: 0px 4px 10px 0px rgba(143, 255, 0, 0.25);
+        transition-duration: 300ms;
+    }
+    .btn-sm:hover {
+        box-shadow: 0px 8px 20px -4px rgba(143, 255, 0, 0.80);
+    }
+
+    // SECONDARY BUTTONS
+
+    .btn-lg-sec {
+        background-color: rgba(255, 255, 255, 0.06);
+        color: #fff;
+        font-family: Gabarito;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border-radius: 30px;
+        padding: 0px 30px;
+        height: 58px;
+        width: 100%;
+        transition-duration: 300ms;
+        margin: 2px 10px;
+    }
+    .btn-lg-sec:hover {
+        background-color: rgba(255, 255, 255, 0.06);
+    }
+
+    .footer-btn {
+        background-color: none;
+        color: #fff;
+        border: 2px solid #8FFF00;
+        padding: 20px;
+        height: 58px;
+        width: 100%;
+        text-align: center;
+    }
+    .footer-btn:hover {
+        background-color: #8FFF00;
+        color: #1E1E1E;
+    }
 }
