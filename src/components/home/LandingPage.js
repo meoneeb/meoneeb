@@ -1,13 +1,19 @@
-import React from "react";
+'use client'
+
+import React, { useEffect, useState} from "react";
+import { useDevice } from "../../../helpers/useDevice";
 
 export default function LandingPage() {
+
+    const {IsMob} = useDevice()
 
     return (
         <>  
             <div
                 className="d-flex flex-column gap-4 p-2 justify-content-center align-items-center gradient-body"
                 style={{
-                    height: '100vh'
+                    height: '100vh',
+                    
                 }}
             >
                 <h1 className="mt-20" style={{color: '#8FFF00'}}>Hello! I am Oneeb Faisal,</h1>

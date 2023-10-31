@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import HomeScreen from '@/components/home/HomeScreen'
+import HomeScreen from '@/pages/Home'
 import '../styles/globals.scss'
 
 export default function Home({ Component, pageProps }) {
