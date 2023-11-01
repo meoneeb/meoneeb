@@ -17,14 +17,15 @@ export default function AboutMe() {
                 </div>
                 <div className="d-flex flex-wrap" style={{width: '500px'}}>
                     {skills.map((skill) => (
-                        <span style={{
-                            margin: '4px',
-                            padding: '10px',
-                            border: '2px solid #8FF000',
-                            borderRadius: '15px',
-                            height: 'fit-content',
-                            color: '#fff'
-                            }}>
+                        <span key={skill}
+                            style={{
+                                margin: '4px',
+                                padding: '10px',
+                                border: '2px solid #8FF000',
+                                borderRadius: '15px',
+                                height: 'fit-content',
+                                color: '#fff'
+                                }}>
                             {skill}
                         </span>
                     ))}
