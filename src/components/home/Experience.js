@@ -42,8 +42,7 @@ export default function Experience() {
                         </p>
                         <div className="d-flex flex-wrap gap-3 py-4">
                             <a 
-                                // href="https://drive.google.com/file/d/1TNVqSQ_nl9g6pHTwbLTyGtM7w1Kzf__q/view?usp=drive_link"
-                                href="resume.pdf" download
+                                href="https://drive.google.com/file/d/1TNVqSQ_nl9g6pHTwbLTyGtM7w1Kzf__q/view?usp=drive_link"
                                 className="btn-lg"
                                 target="_blank"
                                 >
