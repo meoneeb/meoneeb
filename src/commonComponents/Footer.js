@@ -4,7 +4,7 @@ export default function Footer () {
     return (
         <>
             <div
-                className="back d-flex flex-sm-wrap gap-0"
+                className="back d-flex flex-wrap gap-0"
                 style={{
                     backgroundColor: '#1e1e1e',
                     color: '#fff'

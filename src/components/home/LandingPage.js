@@ -9,12 +9,13 @@ export default function LandingPage() {
         <>  <div className="gradient-body">
                 <div className="container fluid">
                     <div
-                    className="d-flex flex-column gap-2 p-2 justify-content-center align-items-center gradient-body"
+                    className="d-flex flex-column gap-2 p-2 justify-content-center align-items-center gradient-body text-center"
                     style={{ height: '100vh'}}
                     >
                     <h1 className="mt-20" style={{color: '#8FFF00'}}>Hello! I am Oneeb Faisal,</h1>
                     <div
-                        className="d-flex flex-row gap-4 align-items-center"
+                        className="d-flex flex-wrap align-items-center justify-content-center"
+                        style={{ gap: IsMob ? '4px' : '40px'}}
                     >
                         <h3 style={{color: '#fff'}}>Graphic & UI Designer</h3>
                         <button className="btn-sm">About me</button>
