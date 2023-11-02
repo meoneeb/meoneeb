@@ -1,7 +1,7 @@
 'use client'
 import Head from 'next/head'
 import Image from 'next/image'
-import HomeScreen from '@/pages/Home'
+import HomeScreen from '@/pages/home'
 import '../styles/globals.scss'
 
 export default function Home({ Component, pageProps }) {

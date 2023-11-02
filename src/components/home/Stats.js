@@ -1,6 +1,9 @@
 import React, { useEffect, useState} from "react";
+import { useDevice } from "../../../helpers/useDevice";
 
 export default function Stats() {
+
+    const {IsMob} = useDevice()
 
     const stats = [
         {
@@ -21,7 +24,12 @@ export default function Stats() {
     return (
         <>  <div style={{ backgroundColor: '#2A2A2A'}}>
                 <div className="container fluid">
-                    <div className="d-flex justify-content-between align-items-start gap-4 py-8 px-16">
+                    <div className="d-flex justify-content-center align-items-center py-8"
+                        style={{
+                            gap: IsMob ? '10px' : '100px',
+                            flexDirection: IsMob ? 'column' : 'row',
+                            justifyContent: IsMob ? 'center' : 'space-between'
+                        }}>
                         {
                             stats.map((value) => (
                                 <div className="d-flex flex-column text-center">

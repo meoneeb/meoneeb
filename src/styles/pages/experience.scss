@@ -1,0 +1,47 @@
+// FOR PC & TABLET
+@media(min-width:760px){
+    .exp-card {
+        background-color: #2A2A2A;
+        padding: 30px;
+        padding-bottom: 20px;
+        margin-top: 10px;
+        margin-left: 40px;
+        border-radius: 20px;
+        border: 2px solid #2A2A2A;
+        .title {
+            color: #fff;
+        }
+
+        &:hover {
+            border: 2px solid #8fff00;
+            box-shadow: 0px 10px 20px -12px #8fff00;
+            .title {
+                color: #8fff00;
+            }
+        }
+    }
+}
+// FOR MOBILE
+@media(max-width:760px){
+    .exp-card {
+        background-color: #2A2A2A;
+        padding: 30px;
+        padding-bottom: 20px;
+        margin-top: 10px;
+        margin-right: auto;
+        border-radius: 20px;
+        border: 1px solid #8fff00;
+        width: 100%;
+        .title {
+            color: #fff;
+        }
+
+        &:hover {
+            border: 1px solid #8fff00;
+            box-shadow: 0px 5px 10px -6px #8fff00;
+            .title {
+                color: #8fff00;
+            }
+        }
+    }
+}
