@@ -9,7 +9,7 @@ export default function HomeScreen() {
         <>
             <LandingPage />
             <AboutMe/>
-            <Stats/>
+            {/* <Stats/> */}
             <Footer/>          
         </>
     )
