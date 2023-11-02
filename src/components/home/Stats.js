@@ -4,17 +4,14 @@ export default function Stats() {
 
     const stats = [
         {
-            id: 1,
             Value: "4+ Years",
             Title: "Experience"
         },
         {
-            id: 2,
             Value: "20+",
             Title: "Projects completed"
         },
         {
-            id: 3,
             Value: "Google",
             Title: "Certifications"
         }
@@ -28,10 +25,10 @@ export default function Stats() {
                         {
                             stats.map((value) => (
                                 <div className="d-flex flex-column text-center">
-                                    <h4 key={value.id} style={{ color: '#fff'}}>
+                                    <h4 style={{ color: '#fff'}}>
                                         {value.Value}
                                     </h4>
-                                    <h6 key={value.id} style={{color: '#8fff00'}}>
+                                    <h6 style={{color: '#8fff00'}}>
                                         {value.Title}
                                     </h6>
                                 </div>
