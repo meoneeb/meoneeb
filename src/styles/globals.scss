@@ -11,8 +11,13 @@
 @import "buttons/scrollbar.scss";
 @import "text/text.scss";
 
+// Variable overrides first
+$primary: #8fff00;
+$enable-shadows: true;
+$prefix: "mo-";
 
-@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css');
+// Then import Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
 // GLOBAL
 
