@@ -25,10 +25,10 @@ export default function Stats() {
                         {
                             stats.map((value, index) => (
                                 <div className="d-flex flex-column align-items-center">
-                                    <h4 style={{ color: '#fff'}}>
+                                    <h4 key={value.id} style={{ color: '#fff'}}>
                                         {value.Value}
                                     </h4>
-                                    <h6 style={{color: '#8fff00'}}>
+                                    <h6 key={value.id} style={{color: '#8fff00'}}>
                                         {value.Title}
                                     </h6>
                                 </div>
