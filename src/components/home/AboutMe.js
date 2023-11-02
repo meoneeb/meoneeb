@@ -7,7 +7,7 @@ export default function AboutMe() {
     return (
         <>
             <div className="back">
-                <div className="container d-flex flex-wrap">
+                <div className="container d-flex flex-wrap pb-8">
                     <div className="col-lg-6">
                         <h3 style={{ color: '#8fff00'}}>
                             About me
