@@ -2,46 +2,65 @@
 // GLOBAL
 
 * {
-    font-family: 'Gabarito', sans-serif;
+    font-family: Lato , sans-serif;
 }
 
 // FOR PC & TABLET
 @media(min-width:760px){
     h1 {
-        font-size: 72px;
-        font-weight: 700;
+        font-family: coolvetica;
+        font-size: 72px !important;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    h2 {
+        font-family: coolvetica;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
     }
     h3 {
-        /* display/h3 */
-        font-family: Gabarito;
+        font-family: coolvetica;
         font-size: 48px;
+        font-style: normal;
+        font-weight: 50;
+        line-height: normal;
+    }
+    h4 {
+        font-family: coolvetica;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    h5 {
+        font-family: coolvetica;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    h6 {
+        font-family: coolvetica;
+        font-size: 24px;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
     }
     p {
         /* text/lg/reg */
-        font-family: Lato, sans-serif;
-        font-size: 22px;
+        font-family: 'proxima nova', sans-serif;
+        font-size: 20px;
         font-style: normal;
-        font-weight: 400;
-        line-height: normal;
+        font-weight: 300;
+        line-height: 1.6;
     }
 }
 // FOR MOBILE
 @media(max-width:760px){
-    h1 {
-        font-size: 48px;
-        font-weight: 700;
-    }
-    h3 {
-        /* display/h3 */
-        font-family: Gabarito;
-        font-size: 48px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-    }
+    
     p {
         font-family: Lato, sans-serif;
         font-size: 16px;
