@@ -18,14 +18,25 @@ export default function LandingPage() {
                         style={{ gap: IsMob ? '4px' : '40px'}}
                     >
                         <h3 style={{color: '#fff'}}>Graphic & UI Designer</h3>
-                        <button className="btn-sm">About me</button>
+                        <a href="#aboutme" className="btn-sm">About me</a>
                     </div>
                     <p style={{color: '#fff'}}>specialized in creating bespoke websites, digital products, and visual stories for fast-growing companies.</p>
                     <div
                         className="d-flex py-4 flex-wrap gap-4"
                     >
-                        <button className="btn-lg">Hire me for a project</button>
-                        <button className="btn-lg-sec">See Portfolio ➞</button>
+                        <a
+                            className="btn-lg"
+                            href="#hireMe"
+                        >
+                            Hire me for a project
+                        </a>
+                        <a
+                            className="btn-lg-sec"
+                            href="https://www.behance.net/oneebfaisal"
+                            target="_blank"
+                        >
+                            See Portfolio ➞
+                        </a>
                     </div>
                     </div>
                 </div>

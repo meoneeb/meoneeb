@@ -58,6 +58,14 @@
         font-weight: 400;
         line-height: 1.6;
     }
+    .footer-link {
+        color: #fff;
+        text-decoration: none;
+        &:hover {
+            color: #8fff00;
+            text-decoration: underline;
+        }
+    }
 }
 // FOR MOBILE
 @media(max-width:760px){
@@ -109,6 +117,14 @@
         font-style: normal;
         font-weight: 400;
         line-height: 1.4;
+    }
+    .footer-link {
+        text-decoration: none;
+        color: #fff;
+        &:hover {
+            color: #8fff00;
+            text-decoration: underline;
+        }
     }
 
 }
