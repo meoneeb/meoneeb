@@ -12,7 +12,7 @@ export default function LandingPage() {
                     className="d-flex flex-column gap-2 p-2 justify-content-center align-items-center gradient-body text-center"
                     style={{ height: '100vh'}}
                     >
-                    <h1 className="mt-20" style={{color: '#8FFF00'}}>Hello! I am Oneeb Faisal,</h1>
+                    <h1 style={{color: '#8FFF00'}}>Hello! I am Oneeb Faisal,</h1>
                     <div
                         className="d-flex flex-wrap align-items-center justify-content-center"
                         style={{ gap: IsMob ? '4px' : '40px'}}
