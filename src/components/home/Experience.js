@@ -10,7 +10,7 @@ export default function Experience() {
             end: "Present",
         },
         {
-            title: "Graphic & UI Designer",
+            title: "Lead Designer",
             company: "Carolina Education",
             start: "December 2021",
             end: "Present",
@@ -41,7 +41,7 @@ export default function Experience() {
                             I have collaborated with renowned scientific research companies such as Abiosciences and Iview Therapeutics based in the US, as well as worked with familiar brands such as Hardees, Pizza Online and Pizza House on several successful projects.
                         </p>
                         <div className="d-flex flex-wrap gap-3 py-4">
-                            <a href="../../public/doc/resume.pdf" className="btn-lg" download>
+                            <a href="https://drive.google.com/file/d/1TNVqSQ_nl9g6pHTwbLTyGtM7w1Kzf__q/view?usp=drive_link" className="btn-lg" target="_blank">
                                 Download Resume
                                 <span class="material-symbols-outlined">download</span>
                             </a>
