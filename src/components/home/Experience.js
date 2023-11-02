@@ -41,7 +41,12 @@ export default function Experience() {
                             I have collaborated with renowned scientific research companies such as Abiosciences and Iview Therapeutics based in the US, as well as worked with familiar brands such as Hardees, Pizza Online and Pizza House on several successful projects.
                         </p>
                         <div className="d-flex flex-wrap gap-3 py-4">
-                            <a href="https://drive.google.com/file/d/1TNVqSQ_nl9g6pHTwbLTyGtM7w1Kzf__q/view?usp=drive_link" className="btn-lg" target="_blank">
+                            <a 
+                                // href="https://drive.google.com/file/d/1TNVqSQ_nl9g6pHTwbLTyGtM7w1Kzf__q/view?usp=drive_link"
+                                href="resume.pdf" download
+                                className="btn-lg"
+                                target="_blank"
+                                >
                                 Download Resume
                                 <span class="material-symbols-outlined">download</span>
                             </a>
