@@ -4,28 +4,28 @@ import '../../styles/pages/experience.scss'
 export default function Experience() {
     const experience = [
         {
-            title: "Sr. Designer",
-            company: "BlueJay Health",
-            start: "August 2022",
-            end: "Present",
+            Title: "Sr. Designer",
+            Company: "BlueJay Health",
+            Start: "August 2022",
+            End: "Present",
         },
         {
-            title: "Lead Designer",
-            company: "Carolina Education",
-            start: "December 2021",
-            end: "Present",
+            Title: "Lead Designer",
+            Company: "Carolina Education",
+            Start: "December 2021",
+            End: "Present",
         },
         {
-            title: "Graphic & UI Designer",
-            company: "Abiosciences Inc.",
-            start: "March 2022",
-            end: "December 2022",
+            Title: "Graphic & UI Designer",
+            Company: "Abiosciences Inc.",
+            Start: "March 2022",
+            End: "December 2022",
         },
         {
-            title: "Graphic Designer",
-            company: "Integrated Marketing Solutions",
-            start: "January 2020",
-            end: "October 2021"
+            Title: "Graphic Designer",
+            Company: "Integrated Marketing Solutions",
+            Start: "January 2020",
+            End: "October 2021"
         }
     ]
     
@@ -60,10 +60,10 @@ export default function Experience() {
                             experience.map((value) => (
                                 <div className="d-flex flex-column exp-card justify-content-center">
                                     <h6 className="title">
-                                        {value.title}, {value.company}
+                                        {value.Title}, {value.Company}
                                     </h6>
                                     <p style={{color: '#878A84', fontSize: '16px'}}>
-                                        {value.start} - {value.end}
+                                        {value.Start} - {value.End}
                                     </p>
                                 </div>
                             ))
