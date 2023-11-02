@@ -4,6 +4,8 @@ import Footer from "@/commonComponents/Footer";
 import AboutMe from "@/components/home/AboutMe";
 import Stats from "@/components/home/Stats";
 import Experience from "@/components/home/Experience";
+import '../styles/globals.scss'
+
 
 export default function HomeScreen() {
     return (
