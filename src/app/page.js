@@ -5,6 +5,7 @@ import HomeScreen from '@/pages/HomePage'
 import '../styles/globals.scss'
 
 export default function Home({ Component, pageProps }) {
+  
   return (
     <>
       <HomeScreen />
