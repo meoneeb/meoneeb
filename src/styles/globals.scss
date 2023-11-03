@@ -6,13 +6,15 @@
 // COLORS
 
 
+// Then import Bootstrap
+@import "../boot.scss";
+
 // STYLES
 @import "buttons/btn.scss";
 @import "buttons/scrollbar.scss";
 @import "text/text.scss";
 
-// Then import Bootstrap
-@import "../boot.scss";
+
 
 // GLOBAL
 
