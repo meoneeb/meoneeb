@@ -5,6 +5,7 @@ import AboutMe from "@/components/home/AboutMe";
 import Stats from "@/components/home/Stats";
 import Experience from "@/components/home/Experience";
 import '../styles/globals.scss'
+import PortfolioCard from "@/commonComponents/portfolio/PortfolioCard";
 
 
 export default function HomeScreen() {
@@ -14,6 +15,7 @@ export default function HomeScreen() {
             <AboutMe/>
             <Stats/>
             <Experience/>
+            <PortfolioCard/>
             <Footer/>         
         </>
     )

@@ -1,33 +1,8 @@
 import React, { useState, useEffect} from "react";
 import '../../styles/pages/experience.scss'
+import { experience } from "@/database/ExperienceData";
 
 export default function Experience() {
-    const experience = [
-        {
-            Title: "Sr. Designer",
-            Company: "BlueJay Health",
-            Start: "August 2022",
-            End: "Present",
-        },
-        {
-            Title: "Lead Designer",
-            Company: "Carolina Education",
-            Start: "December 2021",
-            End: "Present",
-        },
-        {
-            Title: "Graphic & UI Designer",
-            Company: "Abiosciences Inc.",
-            Start: "March 2022",
-            End: "December 2022",
-        },
-        {
-            Title: "Graphic Designer",
-            Company: "Integrated Marketing Solutions",
-            Start: "January 2020",
-            End: "October 2021"
-        }
-    ]
     
     return (
         <div className="back">
@@ -47,7 +22,7 @@ export default function Experience() {
                                 target="_blank"
                                 >
                                 Download Resume
-                                <span class="material-symbols-outlined">download</span>
+                                <span className="material-symbols-outlined">download</span>
                             </a>
                             <a
                             className="btn-lg-sec"
@@ -61,8 +36,8 @@ export default function Experience() {
                     </div>
                     <div className="d-flex flex-column col-sm-6 gap-2">
                         {
-                            experience.map((value) => (
-                                <div className="d-flex flex-column exp-card justify-content-center">
+                            experience.map((value, index) => (
+                                <div key={index} className="d-flex flex-column exp-card justify-content-center">
                                     <h6 className="title">
                                         {value.Title}, {value.Company}
                                     </h6>

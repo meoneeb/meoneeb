@@ -23,8 +23,8 @@ export default function AboutMe() {
                         className="d-flex flex-wrap col-lg-6 gap-2"
                         style={{ border: '2px solid #2a2a2a', borderRadius: '35px', padding: '20px' }}
                         >
-                        {skills.map((skill) => (
-                            <span key={skill.id} style={{ margin: IsWeb ? '4px': '2px', padding: IsWeb ? '10px':'8px', border: '2px solid #8FF000', borderRadius: '15px', height: 'fit-content', color: '#fff', fontSize: IsWeb ? '16px':'14px'}}>
+                        {skills.map((skill, index) => (
+                            <span key={index} style={{ margin: IsWeb ? '4px': '2px', padding: IsWeb ? '10px':'8px', border: '2px solid #8FF000', borderRadius: '15px', height: 'fit-content', color: '#fff', fontSize: IsWeb ? '16px':'14px'}}>
                                 {skill}
                             </span>
                         ))}

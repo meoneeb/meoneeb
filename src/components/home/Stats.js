@@ -31,8 +31,8 @@ export default function Stats() {
                             justifyContent: IsMob ? 'center' : 'space-between'
                         }}>
                         {
-                            stats.map((value) => (
-                                <div className="d-flex flex-column text-center">
+                            stats.map((value, index) => (
+                                <div key={index} className="d-flex flex-column text-center">
                                     <h4 style={{ color: '#fff'}}>
                                         {value.Value}
                                     </h4>
