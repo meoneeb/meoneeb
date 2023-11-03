@@ -1,13 +1,10 @@
+// Then import Bootstrap
+@import "../boot.scss";
+
 // FONTS
 @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700&family=Lato:wght@400;700&display=swap');
 @import url('https://use.typekit.net/xxi4pub.css');
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
-
-// COLORS
-
-
-// Then import Bootstrap
-@import "../boot.scss";
 
 // STYLES
 @import "buttons/btn.scss";
