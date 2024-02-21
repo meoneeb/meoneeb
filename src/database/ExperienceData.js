@@ -1,5 +1,11 @@
 export const experience = [
     {
+        Title: "Sr. Graphic & UI Designer",
+        Company: "Somatic Health",
+        Start: "January 2024",
+        End: "Present",
+    },
+    {
         Title: "Sr. Designer",
         Company: "BlueJay Health",
         Start: "August 2022",
