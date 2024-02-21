@@ -13,12 +13,13 @@ export default function LandingPage() {
                     style={{ height: '100vh'}}
                     >
                     <h1 style={{color: '#8FFF00'}}>Hello! I am Oneeb Faisal,</h1>
+
                     <div
-                        className="d-flex flex-wrap align-items-center justify-content-center"
-                        style={{ gap: IsMob ? '4px' : '40px'}}
+                        className="d-flex flex-wrap align-items-center justify-content-center flex-row"
+                        style={{ gap: IsMob ? '4px' : '40px', flexDirection: "row-reverse"}}
                     >
-                        <h3 style={{color: '#fff'}}>Graphic & UI Designer</h3>
-                        <a href="#aboutme" className="btn-sm">About me</a>
+                        <span className="h3" style={{color: '#fff'}}>Graphic & UI Designer
+                        <a href="#aboutme" className="btn-sm">About me</a></span>
                     </div>
                     <p style={{color: '#fff'}}>specialized in creating bespoke websites, digital products, and visual stories for fast-growing companies.</p>
                     <div

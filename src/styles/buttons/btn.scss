@@ -1,7 +1,7 @@
 @import "../mixins/flex.scss";
 
 // FOR PC & TABLET
-@media(min-width:760px){
+@media(min-width:760px) {
 
     // PRIMARY BUTTONS
     .btn-lg {
@@ -11,26 +11,35 @@
         font-size: 18px;
         border-radius: 30px;
         padding: 0px 30px;
-        height: 68px ;
+        height: 68px;
         box-shadow: 0px 4px 10px 0px rgba(143, 255, 0, 0.25);
 
     }
+
     .btn-lg:hover {
         box-shadow: 0px 12px 20px -8px rgba(143, 255, 0, 0.80);
     }
 
     .btn-sm {
-        @include btn;
+        // @include btn;
         background-color: #8FFF00;
         color: #1E1E1E;
         font-size: 14px;
         border-radius: 15px;
-        padding: 0px 20px;
-        height: 36px ;
+        padding: 8px 20px;
         box-shadow: 0px 4px 10px 0px rgba(143, 255, 0, 0.25);
-    }
-    .btn-sm:hover {
-        box-shadow: 0px 8px 20px -4px rgba(143, 255, 0, 0.80);
+        width: fit-content;
+        gap: 8px;
+        transition-duration: 300ms;
+        font-family: 'coolvetica', "gabarito", "Syne";
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-decoration: none;
+
+        &:hover {
+            box-shadow: 0px 8px 20px -4px rgba(143, 255, 0, 0.80);
+        }
     }
 
     // SECONDARY BUTTONS
@@ -43,11 +52,13 @@
         font-size: 18px;
         border-radius: 30px;
         padding: 0px 30px;
-        height: 68px ;
+        height: 68px;
     }
+
     .btn-lg-sec:hover {
         background-color: rgba(255, 255, 255, 0.06);
     }
+
     .footer-btn {
         @include btn;
         background-color: none;
@@ -57,6 +68,7 @@
         height: 68px;
         width: 25%;
     }
+
     .footer-btn:hover {
         background-color: #8FFF00;
         color: #1E1E1E;
@@ -64,7 +76,7 @@
 }
 
 // FOR MOBILE
-@media(max-width:760px){
+@media(max-width:760px) {
 
     // PRIMARY BUTTONS
 
@@ -80,6 +92,7 @@
         box-shadow: 0px 4px 10px 0px rgba(143, 255, 0, 0.25);
 
     }
+
     .btn-lg:hover {
         box-shadow: 0px 12px 20px -8px rgba(143, 255, 0, 0.80);
     }
@@ -94,6 +107,7 @@
         height: 30px;
         box-shadow: 0px 4px 10px 0px rgba(143, 255, 0, 0.25);
     }
+
     .btn-sm:hover {
         box-shadow: 0px 8px 20px -4px rgba(143, 255, 0, 0.80);
     }
@@ -111,6 +125,7 @@
         height: 58px;
         width: 100%;
     }
+
     .btn-lg-sec:hover {
         background-color: rgba(255, 255, 255, 0.06);
     }
@@ -124,6 +139,7 @@
         height: 58px;
         width: 100%;
     }
+
     .footer-btn:hover {
         background-color: #8FFF00;
         color: #1E1E1E;

@@ -22,7 +22,7 @@ export default function Experience() {
                                 target="_blank"
                                 >
                                 Download Resume
-                                <span className="material-symbols-outlined">download</span>
+                                <i class="fi fi-br-down-to-line"></i>
                             </a>
                             <a
                             className="btn-lg-sec"
