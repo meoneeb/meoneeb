@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 👋 Hi, I'm Oneeb Faisal - Full Stack Designer
 
-## Getting Started
+Welcome to my GitHub profile! I'm a passionate **Full Stack Designer** with a love for creating seamless, user-friendly, and visually stunning digital experiences. I bridge the gap between design and development, ensuring that every pixel and line of code works harmoniously to deliver exceptional products.
 
-First, run the development server:
+## 🛠️ Skills & Expertise
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Design:** UI/UX Design, Wireframing, Prototyping, Interaction Design, Graphic Design, Branding
+- **Frontend Development:** HTML, CSS, JavaScript, React, Nextjs, Tailwind CSS, Responsive Design
+- **Tools:** Figma, Adobe XD, Photoshop, Illustrator, Git, VS Code, Webpack
+- **Other:** Agile Methodologies, Project Management, Cross-functional Collaboration
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 What I Do
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Design & Prototype:** I create intuitive and visually appealing designs, from wireframes to high-fidelity prototypes.
+- **Develop:** I bring designs to life with clean, efficient, and maintainable code.
+- **Collaborate:** I work closely with developers, product managers, and stakeholders to ensure the best possible outcomes.
+- **Optimize:** I focus on performance, accessibility, and scalability to deliver the best user experience.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 📫 Let's Connect!
 
-## Learn More
+I'm always open to new opportunities, collaborations, or just a friendly chat. Feel free to reach out to me via:
 
-To learn more about Next.js, take a look at the following resources:
+- **Email:** [hi@meoneeb.com](mailto:hi@meoneeb.com)
+- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/meoneeb/)
+- **Portfolio:** [Your Portfolio Website](https://www.meoneeb.com)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thanks for visiting my profile! Let's create something amazing together. 🚀
