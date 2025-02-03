@@ -21,7 +21,7 @@ Welcome to my GitHub profile! I'm a passionate **Full Stack Designer** with a lo
 I'm always open to new opportunities, collaborations, or just a friendly chat. Feel free to reach out to me via:
 
 - **Email:** [hi@meoneeb.com](mailto:hi@meoneeb.com)
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/meoneeb/)
-- **Portfolio:** [Your Portfolio Website](https://www.meoneeb.com)
+- **LinkedIn:** [Profile](https://www.linkedin.com/in/meoneeb/)
+- **Portfolio:** [www.meoneeb.com](https://www.meoneeb.com)
 
 Thanks for visiting my profile! Let's create something amazing together. 🚀
